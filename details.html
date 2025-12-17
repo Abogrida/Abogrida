@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="details-page">
+    <header>
+        <a href="index.html" class="back-link">← Back to Portfolio</a>
+    </header>
+
+    <main class="details-container">
+        <h1 id="project-title">Project Title</h1>
+        <p id="project-desc">Project Description</p>
+
+        <div class="gallery-grid" id="gallery-grid">
+            <!-- Images will be injected here by JS -->
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="details.js"></script>
+</body>
+
+</html>
